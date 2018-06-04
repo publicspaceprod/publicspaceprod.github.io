@@ -5,11 +5,11 @@ title:  "A VIEW FROM THE LAKE"
 subtitle: "Short Film"
 details: Dir. Kyle McDonnell - 2018 
 desc: 'Genre: Drama <br> Camille’s disintegrating relationship with her father is further strained when she’s faced with the hardest decision she’s ever had to make.'
-video: ../assets/videos/view-from-the-lake/video/CLIP_1.mp4
-link: ../films/view-from-the-lake/index.html/
-img1: ../assets/videos/view-from-the-lake/stills/1.png
-img2: ../assets/videos/view-from-the-lake/stills/2.png
-img3: ../assets/videos/view-from-the-lake/stills/3.png
-img4: ../assets/videos/view-from-the-lake/stills/4.png
+video: /assets/videos/view-from-the-lake/video/CLIP_1.mp4
+link: /films/view-from-the-lake/index.html/
+img1: /assets/videos/view-from-the-lake/stills/1.png
+img2: /assets/videos/view-from-the-lake/stills/2.png
+img3: /assets/videos/view-from-the-lake/stills/3.png
+img4: /assets/videos/view-from-the-lake/stills/4.png
 
 ---

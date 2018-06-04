@@ -50,5 +50,5 @@ var animation = bodymovin.loadAnimation({
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: '../assets/PS_CLOUDS.json'
+    path: '/assets/PS_CLOUDS.json'
 });  */

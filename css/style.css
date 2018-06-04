@@ -1,16 +1,16 @@
 @font-face {
     font-family: superclarendon;
-    src: url(../assets/fonts/superclarendon.ttf);
+    src: url(/assets/fonts/superclarendon.ttf);
 }
 
 @font-face {
     font-family: coolvetica;
-    src: url(../assets/fonts/coolvetica.ttf);
+    src: url(/assets/fonts/coolvetica.ttf);
 }
 
 @font-face {
     font-family: mont;
-    src: url(../assets/fonts/mont.otf);
+    src: url(/assets/fonts/mont.otf);
 }
 
 body {

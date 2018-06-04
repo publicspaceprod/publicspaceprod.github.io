@@ -7,12 +7,12 @@ details: "Dir. Kyle Marchen"
 desc: "“I really wanted the visuals for this song to have a strong sense of empowerment and an attitude of “If you work hard you can achieve whatever you want.” Keeping that mentality alive can be very hard when life starts to get crazy, and sometimes we just need a little reminder. I was lucky enough to have Olympian Nikkita Holder star in the video… She’s one of my best friends so really she couldn’t say no! The amount of dedication and work involved in training for something like the Olympics made her story a perfect one to really bring out the message of the song.”<br>
 -Tafari Anthony"
 embed: https://player.vimeo.com/video/272705762
-video: ../assets/videos/tafari-toTheEnd/video/CLIP_2.mp4
+video: /assets/videos/tafari-toTheEnd/video/CLIP_2.mp4
 link: ../musicvideos/tafari-toTheEnd/index.html/
-display: ../assets/videos/tafari-toTheEnd/stills/display.png
-img1: ../assets/videos/tafari-toTheEnd/stills/1.png
-img2: ../assets/videos/tafari-toTheEnd/stills/2.png
-img3: ../assets/videos/tafari-toTheEnd/stills/3.png
-img4: ../assets/videos/tafari-toTheEnd/stills/4.png
+display: /assets/videos/tafari-toTheEnd/stills/display.png
+img1: /assets/videos/tafari-toTheEnd/stills/1.png
+img2: /assets/videos/tafari-toTheEnd/stills/2.png
+img3: /assets/videos/tafari-toTheEnd/stills/3.png
+img4: /assets/videos/tafari-toTheEnd/stills/4.png
 
 ---

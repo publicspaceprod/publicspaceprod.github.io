@@ -6,11 +6,11 @@ subtitle: "Justin Trash"
 details: Dir. Kyle Marchen
 desc: The direct translation to Noraebang is Karaoke room. It's a huge part of Asian culture that everybody experiences differently and this video is just showing everybody how I experience it. <br> - Justin Trash
 press: https://noisey.vice.com/en_us/article/mba3z3/justin-trash-gets-comfortably-buck-in-the-noraebang
-video: ../assets/videos/trash-noraebang/video/CLIP_1.mp4
+video: /assets/videos/trash-noraebang/video/CLIP_1.mp4
 link: ../musicvideos/trash-noraebang/index.html/
-img1: ../assets/videos/trash-noraebang/stills/1.png
-img2: ../assets/videos/trash-noraebang/stills/2.png
-img3: ../assets/videos/trash-noraebang/stills/3.png
-img4: ../assets/videos/trash-noraebang/stills/4.png
+img1: /assets/videos/trash-noraebang/stills/1.png
+img2: /assets/videos/trash-noraebang/stills/2.png
+img3: /assets/videos/trash-noraebang/stills/3.png
+img4: /assets/videos/trash-noraebang/stills/4.png
 
 ---
