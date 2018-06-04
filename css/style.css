@@ -440,6 +440,14 @@ video#bgvid {
     z-index: 50;
 }
 
+.about__container--info h1 {
+    margin-bottom: 16px;
+}
+
+.about__container--info p {
+    font-family: superclarendon;
+}
+
 .modal-dialog {
     max-width: 675px !important;
 }
