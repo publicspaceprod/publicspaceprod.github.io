@@ -1,0 +1,15 @@
+---
+
+layout: project
+title:  "COAST"
+subtitle: "OSEKO"
+details: Dir. Kyle Marchen + Van Wickiam
+embed: https://player.vimeo.com/video/193450725
+video: ../assets/videos/oseko-coast/video/oseko-coast.mp4
+link: ../musicvideos/oseko-coast/index.html/
+img1: ../assets/videos/oseko-coast/stills/1.png
+img2: ../assets/videos/oseko-coast/stills/2.png
+img3: ../assets/videos/oseko-coast/stills/3.png
+img4: ../assets/videos/oseko-coast/stills/4.png
+
+---

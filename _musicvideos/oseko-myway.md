@@ -1,0 +1,16 @@
+---
+
+layout: project
+title:  "MY WAY"
+subtitle: "OSEKO"
+details: Dir. Kyle Marchen
+desc: “I wanted to make a song about how skinny love is and write a story that summarizes this person on the pursuit for his partner, the questions he has for her and the experience of trying to find his way through it all.” <br> -Oseko
+embed: https://player.vimeo.com/video/257370119
+press: http://www.liveinlimbo.com/2018/03/23/world-premiere/video-premiere-my-way-by-oseko.html
+video: ../assets/videos/oseko-myway/video/oseko-myway.mp4
+link: ../musicvideos/oseko-myway/index.html/
+img1: ../assets/videos/oseko-myway/stills/1.png
+img2: ../assets/videos/oseko-myway/stills/2.png
+img3: ../assets/videos/oseko-myway/stills/3.png
+img4: ../assets/videos/oseko-myway/stills/4.png
+---

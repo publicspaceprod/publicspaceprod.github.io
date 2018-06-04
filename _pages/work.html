@@ -1,0 +1,53 @@
+---
+layout: default
+permalink: work.html
+---
+
+<div class="work__container">
+
+    {% for musicvideo in site.musicvideos %}
+        <div class="work__item">
+            <a href="{{musicvideo.link | prepend: site.baseurl }}">
+                <div class="work__item--title">
+                    <h1>{{ musicvideo.title }}</h1>
+                    <h2>{{ musicvideo.subtitle }}</h2>
+                </div>
+            </a>
+            <video playsinline autoplay muted loop>
+                <source src="{{musicvideo.video}}" type="video/mp4">
+            </video>
+        </div>
+    {% endfor %}
+
+    {% for film in site.films %}
+        <div class="work__item">
+            <a href="{{film.link | prepend: site.baseurl }}">
+                <div class="work__item--title">
+                    <h1>{{ film.title }}</h1>
+                    <h2>{{ film.subtitle }}</h2>
+                </div>
+            </a>
+            <video playsinline autoplay muted loop>
+                <source src="{{film.video}}" type="video/mp4">
+            </video>
+        </div>
+    {% endfor %}
+
+    {% for commercial in site.commercials %}
+        <div class="work__item">
+            <a href="{{commercial.link | prepend: site.baseurl }}">
+                <div class="work__item--title">
+                    <h1>{{ commercial.title }}</h1>
+                    <h2>{{ commercial.subtitle }}</h2>
+                </div>
+            </a>
+            <video playsinline autoplay muted loop>
+                <source src="{{commercial.video}}" type="video/mp4">
+            </video>
+        </div>
+    {% endfor %}
+
+
+</div>
+
+

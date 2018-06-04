@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<div id="overlay">
+    <div class="project__video">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            <i class="fas fa-play" data-toggle="modal" data-target="#exampleModal"></i>
+        </button>
+        <video autoplay loop playsinline muted src="{{page.video}}"></video>
+    </div>
+</div>
+
+<div class="project__content">
+    <div class="project__content--logo">
+        <img src='../assets/img/brick-cloud.png'>
+    </div>
+    <div class="project__content--text">
+        <h1>{{page.title}}</h1>
+        <h2>{{page.subtitle}}</h2>
+    </div>
+    <div class="project__content--stills">
+        <img src="{{page.img1}}">
+        <img src="{{page.img2}}">
+        <img src="{{page.img3}}">
+        <img src="{{page.img4}}">
+    </div>
+    <div class="project__content--presser">
+        <div class="presser__item">
+            <iframe src="{{page.embed}}" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="presser__item">
+            <h3>{{page.details}}</h3>
+            <hr>
+            <p>{{page.desc}}</p>
+            <hr>
+            <p>Press:</p>
+            <p>{{page.press}}</p>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <iframe id="modaliframe" src="{{page.embed}}" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+

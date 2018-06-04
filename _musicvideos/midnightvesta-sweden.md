@@ -1,0 +1,16 @@
+---
+
+layout: project
+title:  "Sweden"
+subtitle: "Midnight Vesta"
+details: Dir. Kyle Marchen 
+embed: https://player.vimeo.com/video/272672175
+press: http://exclaim.ca/music/article/midnight_vesta-sweden_video
+video: ../assets/videos/midnightvesta-sweden/video/midnightvesta-sweden.mp4
+link: ../musicvideos/midnightvesta-sweden/index.html/
+img1: ../assets/videos/midnightvesta-sweden/stills/1.png
+img2: ../assets/videos/midnightvesta-sweden/stills/2.png
+img3: ../assets/videos/midnightvesta-sweden/stills/3.png
+img4: ../assets/videos/midnightvesta-sweden/stills/4.png
+
+---
