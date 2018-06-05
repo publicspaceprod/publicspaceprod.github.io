@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+/*
     // grab an element
     var myElement = document.getElementById("navbar");
     // construct an instance of Headroom, passing the element
@@ -14,7 +14,7 @@ $(document).ready(function () {
     });
     // initialise
     headroom.init();
-
+*/
     var preloader = document.getElementById('preloader');
     preloader.style.opacity='0';
     preloader.style.zIndex='-5';
