@@ -35,9 +35,7 @@
         <div id="preloader"><span class="preloader-gif"></span></div>
         <div id="overlay">
     <div class="project__video">
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-            <i class="fas fa-play" data-toggle="modal" data-target="#exampleModal"></i>
-        </button>
+        <i class="fas fa-play fa-5x" data-toggle="modal" data-target="#projectModal"></i>
         <video autoplay loop playsinline muted src=""></video>
     </div>
 </div>
@@ -58,7 +56,7 @@
     </div>
     <div class="project__content--presser">
         <div class="presser__item">
-            <iframe src="" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+            <video src="" type="video/mp4" autoplay autoloop muted>
         </div>
         <div class="presser__item">
             <h3>Dir. Van Wickiam</h3>
@@ -66,15 +64,17 @@
             <p>Maybe Artist statement from Snoopy? I don’t have much to say about this other than it’s cool dance and fun.</p>
             <hr>
             <p>Press:</p>
-            <p></p>
+            <a href="">
+                <p></p>
+            </a>
         </div>
     </div>
 </div>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
+<div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-splash" role="document">
+        <div class="modal-content modal-content-splash">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>

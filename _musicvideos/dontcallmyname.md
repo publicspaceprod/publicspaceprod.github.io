@@ -8,6 +8,8 @@ desc: “Don’t call my name is about times we hold on to a long dead love, and
 embed: https://player.vimeo.com/video/272705528
 press: http://www.liveinlimbo.com/2017/07/14/world-premiere/video-premiere-dont-call-my-name-by-mountain-of-wolves.html
 video: /assets/videos/wolves/video/clip_1.mp4
+clip2: /assets/videos/wolves/video/clip_2.mp4
+clip3: /assets/videos/wolves/video/clip_3.mp4
 link: /musicvideos/dontcallmyname/index.html/
 img1: /assets/videos/wolves/stills/1.png
 img2: /assets/videos/wolves/stills/2.png
