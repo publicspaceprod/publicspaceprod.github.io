@@ -659,7 +659,7 @@ video#bgvid {
     position: fixed;
     width: 200px;
     top: 50%;
-    right: -20%;
+    right: -285px;
     background: rgb(29,175,236);
     -ms-transform: translateX(-50%) translateY(-20%);
     -moz-transform: translateX(-50%) translateY(-20%);
@@ -672,5 +672,5 @@ video#bgvid {
 }
 
 #sidenav:hover {
-    right: -13%;
+    right: -265px;
 }

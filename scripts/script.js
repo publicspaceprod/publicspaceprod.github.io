@@ -31,7 +31,7 @@ $(document).ready(function () {
     });
 
     document.getElementById('sidenav').addEventListener('click', function() {
-        document.getElementById('sidenav').style.right='-7%';
+        document.getElementById('sidenav').style.right='-150px';
     });
 }); 
 
