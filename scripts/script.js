@@ -27,6 +27,10 @@ $(document).ready(function () {
             $(this).find('iframe').attr('src', src);
         });
     });
+
+    document.getElementById('sidenav').addEventListener('click', function() {
+        document.getElementById('sidenav').style.right='-7%';
+    });
 }); 
 
 /*

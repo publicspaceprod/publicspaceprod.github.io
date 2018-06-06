@@ -29,13 +29,17 @@ layout: default
         </div>
         <div class="presser__item">
             <h3>{{page.details}}</h3>
-            <hr>
-            <p>{{page.desc}}</p>
-            <hr>
-            <p>Press:</p>
-            <a href="{{page.press}}">
-                <p>{{page.press}}</p>
-            </a>
+            {% if page.desc %}
+                <hr>
+                <p>{{page.desc}}</p>
+            {% endif %}
+            {% if page.press %}
+                <hr>
+                <p>Press:</p>
+                <a href="{{page.press}}">
+                    <p>{{page.press}}</p>
+                </a>
+            {% endif %}
         </div>
     </div>
 </div>

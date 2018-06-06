@@ -653,3 +653,24 @@ video#bgvid {
         text-align: center;
     }
 }
+
+#sidenav {
+    display: block;
+    position: fixed;
+    width: 200px;
+    top: 50%;
+    right: -20%;
+    background: rgb(29,175,236);
+    -ms-transform: translateX(-50%) translateY(-20%);
+    -moz-transform: translateX(-50%) translateY(-20%);
+    -webkit-transform: translateX(-50%) translateY(-20%);
+    transform: translateX(-50%) translateY(-20%);
+    z-index: 999999999;
+    padding: 16px;
+    transition: right 1s ease;
+    list-style-type: none;
+}
+
+#sidenav:hover {
+    right: -13%;
+}
