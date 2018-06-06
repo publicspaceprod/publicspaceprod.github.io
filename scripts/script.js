@@ -16,8 +16,10 @@ $(document).ready(function () {
     headroom.init();
 */
     var preloader = document.getElementById('preloader');
-    preloader.style.opacity='0';
-    preloader.style.zIndex='-5';
+    // preloader
+    $(window).on('load', function(){
+      $(preloader).delay(400).fadeOut(500);
+    });
 
     $('.modal').each(function(){
         var src = $(this).find('iframe').attr('src');
