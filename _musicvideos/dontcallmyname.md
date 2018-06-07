@@ -10,7 +10,7 @@ press: http://www.liveinlimbo.com/2017/07/14/world-premiere/video-premiere-dont-
 video: /assets/videos/wolves/video/Clip_1.mp4
 clip2: /assets/videos/wolves/video/Clip_2.mp4
 clip3: /assets/videos/wolves/video/Clip_3.mp4
-link: ../musicvideos/5.dontcallmyname/index.html/
+link: ../musicvideos/dontcallmyname/index.html/
 img1: /assets/videos/wolves/stills/1.png
 img2: /assets/videos/wolves/stills/2.png
 img3: /assets/videos/wolves/stills/3.png
