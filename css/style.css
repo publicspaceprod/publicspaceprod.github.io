@@ -563,7 +563,7 @@ video#bgvid {
 
 @media (min-width: 768px) {
     .splash__cta h1 {
-        font-size: 5em;
+        font-size: 2.5em;
     }
 }
 
@@ -587,6 +587,10 @@ video#bgvid {
 
 .modal-header .close {
     color: white;
+}
+
+.show {
+    opacity: .95 !important;
 }
 
 .modal-body {
