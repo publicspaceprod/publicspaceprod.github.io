@@ -555,6 +555,11 @@ video#bgvid {
     text-align: center;
 }
 
+.splash__cta img {
+    width: 100%;
+    max-width: 400px;
+}
+
 .splash__cta h1 {
     color: white;
     transition: color .25s ease;
