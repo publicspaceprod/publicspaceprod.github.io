@@ -33,7 +33,7 @@ permalink: /work/
         </div>
     {% endfor %}
 
-    {% for commercial in site.commercials %}
+    {% for commercial in site.commercial %}
         <div class="work__item">
             <a href="{{commercial.link | prepend: site.baseurl }}">
                 <div class="work__item--title">
@@ -51,8 +51,8 @@ permalink: /work/
 
 <ul id="sidenav">
     <li><a href="#work">WORK</a></li>
-    <li>FILM</li>
-    <li>COMMERCIAL</li>
+    <li><a href="#film">FILM</a></li>
+    <li><a href="#commercial">COMMERCIAL</a></li>
 </ul>
 
 

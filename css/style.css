@@ -663,7 +663,7 @@ video#bgvid {
     position: fixed;
     width: 200px;
     top: 50%;
-    right: -285px;
+    right: -150px;
     background: rgb(29,175,236);
     -ms-transform: translateX(-50%) translateY(-20%);
     -moz-transform: translateX(-50%) translateY(-20%);
@@ -675,6 +675,15 @@ video#bgvid {
     list-style-type: none;
 }
 
-#sidenav:hover {
-    right: -265px;
+#sidenav li {
+    color: white;
+}
+
+#sidenav li a {
+    color: white;
+}
+
+#sidenav li a:hover {
+    color: black;
+    text-decoration: none;
 }
