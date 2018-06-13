@@ -23,13 +23,11 @@ $(document).ready(function () {
             $(preloader).css('display', 'none');
             document.getElementById('splash__logo').addEventListener('ended',videoEnd,false);
         } else {
-            console.log('false');
             $(preloader).delay(400).fadeOut(500);
         }
     });
 
     var videoEnd = function(e) {
-        console.log('what');
         $(logoanim).delay(400).fadeOut(700);
     };
 

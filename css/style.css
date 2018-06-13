@@ -41,7 +41,6 @@ hr {
 @media (min-width: 768px) {
     .nav {
         flex-direction: row;
-        position: absolute;
         justify-content: flex-end;
         align-items: center;
         height: 70px;
@@ -203,8 +202,12 @@ hr {
     position: absolute;
     height: 150px;
     width: 150px;
-    left: 30%;
-    top: -85px;
+    left: 50%;
+    top: 0%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
 @media (min-width: 768px) {
@@ -212,8 +215,8 @@ hr {
         position: absolute;
         height: 150px;
         width: 150px;
-        left: 44%;
-        top: -9%;
+        left: 50%;
+        top: 0%;
     }
 }
 
@@ -315,6 +318,10 @@ hr {
     font-size: 1.25em;
 }
 
+.presser__item p {
+    font-family: superclarendon;
+}
+
 .presser__item video {
     height: 100%;
     width: 100%;
@@ -340,6 +347,19 @@ hr {
     height: 100vh;
 }
 
+.work__header {
+    width: 100%;
+    height: 70px;
+    background: rgb(29,175,236);
+    color: black;
+    text-align: center
+}
+
+.work__header h1 {
+    padding: 16px 0;
+    margin: 0 auto;
+}
+
 .work__item {
     display: block;
     position: relative;
@@ -359,6 +379,7 @@ hr {
     width: 100%;
     z-index: 15;
     color: white;
+    transition: color .25s ease;
 }
 
 .work__item::after {
@@ -376,12 +397,11 @@ hr {
 .work__item--title h1 {
     font-size: 2em;
     margin: 0;
-    margin-bottom:0.5em;
+    margin-bottom:0.1em;
     text-transform: uppercase;
-    transition: color .25s ease;
 }
 
-.work__item--title h1:hover {
+.work__item--title:hover {
     color: rgb(29,175,236);
 }
 
@@ -544,6 +564,7 @@ hr {
 #splash__logo {
     opacity: 1;
     background: #fff;
+    width: 1315px;
     height: 100%;
     z-index: 99999999;
     transition: opacity 1s ease;

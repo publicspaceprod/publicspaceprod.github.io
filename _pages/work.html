@@ -5,20 +5,9 @@ permalink: /work/
 
 <div class="work__container">
 
-    {% for musicvideo in site.musicvideos %}
-        <div class="work__item">
-            <a href="{{musicvideo.link | prepend: site.baseurl }}">
-                <div class="work__item--title">
-                    <h1>{{ musicvideo.title }}</h1>
-                    <h2>{{ musicvideo.subtitle }}</h2>
-                </div>
-            </a>
-            <video playsinline autoplay muted loop preload poster>
-                <source src="{{musicvideo.video}}" type="video/mp4">
-            </video>
-        </div>
-    {% endfor %}
-
+    <div class="work__header" id='film'>
+        <h1>FILM</h1>
+    </div>
     {% for film in site.films %}
         <div class="work__item">
             <a href="{{film.link | prepend: site.baseurl }}">
@@ -27,12 +16,32 @@ permalink: /work/
                     <h2>{{ film.subtitle }}</h2>
                 </div>
             </a>
-            <video playsinline autoplay muted loop preload poster>
+            <video playsinline autoplay muted loop preload poster='{{film.img1}}'>
                 <source src="{{film.video}}" type="video/mp4">
             </video>
         </div>
     {% endfor %}
 
+    <div class="work__header" id='work'>
+        <h1>MUSIC VIDEOS</h1>
+    </div>
+    {% for musicvideo in site.musicvideos %}
+        <div class="work__item">
+            <a href="{{musicvideo.link | prepend: site.baseurl }}">
+                <div class="work__item--title">
+                    <h1>{{ musicvideo.title }}</h1>
+                    <h2>{{ musicvideo.subtitle }}</h2>
+                </div>
+            </a>
+            <video playsinline autoplay muted loop preload poster='{{musicvideo.img1}}'>
+                <source src="{{musicvideo.video}}" type="video/mp4">
+            </video>
+        </div>
+    {% endfor %}
+    
+    <div class="work__header" id='commercial'>
+        <h1>COMMERCIAL</h1>
+    </div>
     {% for commercial in site.commercial %}
         <div class="work__item">
             <a href="{{commercial.link | prepend: site.baseurl }}">
@@ -41,7 +50,7 @@ permalink: /work/
                     <h2>{{ commercial.subtitle }}</h2>
                 </div>
             </a>
-            <video playsinline autoplay muted loop preload poster>
+            <video playsinline autoplay muted loop preload poster='{{commercial.img1}}'>
                 <source src="{{commercial.video}}" type="video/mp4">
             </video>
         </div>
@@ -50,8 +59,8 @@ permalink: /work/
 </div>
 
 <ul id="sidenav">
-    <li><a href="#work">WORK</a></li>
     <li><a href="#film">FILM</a></li>
+    <li><a href="#work">MUSIC VIDEOS</a></li>
     <li><a href="#commercial">COMMERCIAL</a></li>
 </ul>
 
