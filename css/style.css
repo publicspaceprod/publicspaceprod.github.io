@@ -544,13 +544,14 @@ hr {
 #splash__logo {
     opacity: 1;
     background: #fff;
+    height: 100%;
     z-index: 99999999;
     transition: opacity 1s ease;
 }
 
 .splash__cta {
     position: fixed;
-    top: 50%;
+    top: 51%;
     left: 50%;
     -ms-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
@@ -564,7 +565,7 @@ hr {
 
 .splash__cta img {
     width: 100%;
-    max-width: 400px;
+    max-width: 435px;
 }
 
 .splash__cta h1 {
