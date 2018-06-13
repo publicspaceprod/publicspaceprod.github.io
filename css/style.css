@@ -113,7 +113,7 @@ hr {
     color: rgb(29, 175, 236);
 }
 
-video#bgvid { 
+.bgvid { 
     position: fixed;
     top: 50%;
     left: 50%;
@@ -539,6 +539,13 @@ video#bgvid {
 
 .modal-header {
     border-bottom: 0 solid transparent !important;
+}
+
+#splash__logo {
+    opacity: 1;
+    background: #fff;
+    z-index: 99999999;
+    transition: opacity 1s ease;
 }
 
 .splash__cta {

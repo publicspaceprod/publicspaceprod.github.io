@@ -16,10 +16,22 @@ $(document).ready(function () {
     headroom.init();
 */
     var preloader = document.getElementById('preloader');
+    var logoanim = document.getElementById('splash__logo');
     // preloader
     $(window).on('load', function(){
-      $(preloader).delay(400).fadeOut(500);
+        if (window.location.href === 'http://127.0.0.1:4000/') {
+            $(preloader).css('display', 'none');
+            document.getElementById('splash__logo').addEventListener('ended',videoEnd,false);
+        } else {
+            console.log('false');
+            $(preloader).delay(400).fadeOut(500);
+        }
     });
+
+    var videoEnd = function(e) {
+        console.log('what');
+        $(logoanim).delay(400).fadeOut(700);
+    };
 
     $('.modal').each(function(){
         var src = $(this).find('iframe').attr('src');
@@ -31,26 +43,3 @@ $(document).ready(function () {
     });
 }); 
 
-/*
-window.onload = function() {
-    var preloader = document.getElementById('preloader');
-    var splashVideo = document.getElementById('bgvid');
-    var nav = document.getElementById('navbar');
-
-    nav.style.opacity = '0';
-
-    preloader.style.opacity= '0';
-    preloader.style.zIndex= '-5';
-
-    nav.style.opacity = '1';
-
-};
-
-
-var animation = bodymovin.loadAnimation({
-    container: document.getElementById('anim'),
-    renderer: 'svg',
-    loop: true,
-    autoplay: true,
-    path: '/assets/PS_CLOUDS.json'
-});  */
