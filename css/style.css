@@ -28,10 +28,11 @@ hr {
 
 .nav {
     display: flex;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 25;
+    z-index: 9999;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -451,8 +452,13 @@ hr {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
     margin: 32px auto;
+    text-align: center;
+}
+
+.contact__container h1 {
+    font-size: 3rem;
+    color: white;
 }
 
 .contact__items {
@@ -462,18 +468,28 @@ hr {
     width: 100%;
 }
 
-.contain__item {
+.contact__item {
     display: flex;
     flex-direction: column;
     width: 50%;
     text-align: center;
+    margin: 0 auto;
     color: white;
+}
+
+.contact__item a {
+    color: white;
+    transition: color .25s ease;
+}
+
+.contact__item a:hover {
+    color: rgb(29,175,236)
 }
 
 .social__container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 100%;
     margin-top: 32px;
@@ -482,6 +498,12 @@ hr {
 
 .social__container a i {
     color: white;
+    padding: 0 16px;
+    transition: color .25s ease;
+}
+
+.social__container a i:hover {
+    color: rgb(29,175,236);
 }
 
 /* Preloader style */
@@ -658,6 +680,8 @@ hr {
 
 .contact__video video {
     width: 100%;
+    border: 5px solid white;
+    border-radius: 3px;
 }
 
 @media (min-width: 768px) {
@@ -674,7 +698,7 @@ hr {
         z-index: 1;
         padding: 0;
     }
-    .contact__video{
+    .contact__video {
         position: fixed;
         top: 52%;
         left: 50%;
@@ -726,4 +750,42 @@ hr {
 #sidenav li a:hover {
     color: black;
     text-decoration: none;
+}
+
+.footer {
+    color: white;
+    background: rgb(29,175,236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hexagon {
+	width: 130px;
+	height: 55px;
+	background: red;
+	position: relative;
+}
+#hexagon:before {
+	content: "";
+	position: absolute;
+	top: -25px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 65px solid transparent;
+	border-right: 65px solid transparent;
+	border-bottom: 25px solid red;
+}
+#hexagon:after {
+	content: "";
+	position: absolute;
+	bottom: -25px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 65px solid transparent;
+	border-right: 65px solid transparent;
+	border-top: 25px solid red;
 }
