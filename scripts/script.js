@@ -3,7 +3,7 @@ $(document).ready(function () {
     var logoanim = document.getElementById('splash__logo');
     // preloader
     $(window).on('load', function(){
-        if (window.location.href === 'http://127.0.0.1:4000/' || window.location.href === 'https://publicspaceprod.github.io/') {
+        if (window.location.href === 'http://127.0.0.1:4000/' || window.location.href === 'https://publicspaceprod.github.io/' || window.location.href === 'https://publicspaceproductions.com/') {
             $(preloader).css('display', 'none');
             document.getElementById('splash__logo').addEventListener('ended',videoEnd,false);
         } else {
