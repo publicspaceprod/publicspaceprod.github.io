@@ -32,7 +32,7 @@ hr {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 9999;
+    z-index: 1000;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
