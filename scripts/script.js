@@ -1,20 +1,4 @@
 $(document).ready(function () {
-/*
-    // grab an element
-    var myElement = document.getElementById("navbar");
-    // construct an instance of Headroom, passing the element
-    var headroom = new Headroom(myElement, {
-        "offset": 205,
-        "tolerance": 5,
-        "classes": {
-          "initial": "animated",
-          "pinned": "slideDown",
-          "unpinned": "slideUp"
-        }
-    });
-    // initialise
-    headroom.init();
-*/
     var preloader = document.getElementById('preloader');
     var logoanim = document.getElementById('splash__logo');
     // preloader
