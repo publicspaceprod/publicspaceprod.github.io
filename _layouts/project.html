@@ -4,7 +4,9 @@ layout: default
 
 <div id="overlay">
     <div class="project__video">
+        {% if page.embed %}
         <i class="fas fa-play fa-5x" data-toggle="modal" data-target="#projectModal"></i>
+        {% endif %}
         <video autoplay loop playsinline muted preload poster src="{{page.clip2}}"></video>
     </div>
 </div>

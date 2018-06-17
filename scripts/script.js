@@ -15,6 +15,11 @@ $(document).ready(function () {
         $(logoanim).delay(400).fadeOut(700);
     };
 
+    $(logoanim).click(function () {
+        $(logoanim).fadeOut(700, "linear");
+        document.getElementById('splash__logo').pause();
+    });
+
     $('.modal').each(function(){
         var src = $(this).find('iframe').attr('src');
 

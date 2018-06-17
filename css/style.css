@@ -365,6 +365,7 @@ hr {
     display: block;
     position: relative;
     height: 100%;
+    max-height: 1280px;
     width: 100%;
 }
 
@@ -386,7 +387,7 @@ hr {
 .work__item::after {
     content: "";
     display: block;
-    position: absolute; 
+    position: absolute;
     top: 0;
     left: 0;
     height: 100%;
@@ -456,11 +457,6 @@ hr {
     text-align: center;
 }
 
-.contact__container h1 {
-    font-size: 3rem;
-    color: white;
-}
-
 .contact__items {
     display: flex;
     flex-direction: column;
@@ -471,10 +467,17 @@ hr {
 .contact__item {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 75%;
     text-align: center;
     margin: 0 auto;
     color: white;
+    transition: color .25s ease;
+}
+
+.contact__item h1 {
+    font-size: 3rem;
+    color: white;
+    transition: color .25s ease;
 }
 
 .contact__item a {
@@ -482,7 +485,11 @@ hr {
     transition: color .25s ease;
 }
 
-.contact__item a:hover {
+.contact__item:hover h1 {
+    color: rgb(29,175,236)
+}
+
+.contact__item:hover a {
     color: rgb(29,175,236)
 }
 
@@ -492,7 +499,7 @@ hr {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 32px;
+    margin-top: 64px;
     color: white;
 }
 
@@ -596,6 +603,7 @@ hr {
     height: 100%;
     z-index: 99999999;
     transition: opacity 1s ease;
+    cursor: pointer;
 }
 
 .splash__cta {
@@ -608,7 +616,6 @@ hr {
     transform: translateX(-50%) translateY(-50%);
     color: white;
     z-index: 999;
-    width: 100%;
     text-align: center;
 }
 
@@ -629,7 +636,11 @@ hr {
     }
 }
 
-.splash__cta h1:hover {
+.splash__cta:hover img {
+    max-width: 475px;
+}
+
+.splash__cta:hover h1 {
     cursor: pointer;
     color: rgb(29,175,236);
 }
@@ -717,7 +728,7 @@ hr {
     }
 
     .contact__item {
-        width: 45%;
+        width: 75%;
         text-align: center;
     }
 }
