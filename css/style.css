@@ -364,7 +364,7 @@ hr {
 .work__item {
     display: block;
     position: relative;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
