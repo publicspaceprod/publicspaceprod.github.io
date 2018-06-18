@@ -28,7 +28,7 @@ hr {
 
 .nav {
     display: flex;
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -118,14 +118,19 @@ hr {
     top: 50%;
     left: 50%;
     min-width: 100%;
-    min-height: 100%;
+    /*min-height: 100%;*/
     width: auto;
-    height: auto;
+    height: 100vh;
     z-index: -100;
     -ms-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
+}
+@media (min-width: 768px) {
+    .bgvid {
+        height: auto;
+    }
 }
 
 /* Project styles */
@@ -349,11 +354,25 @@ hr {
 }
 
 .work__header {
+    display: block;
+    position: relative;
+    z-index: 50;
     width: 100%;
-    height: 70px;
+    height: 100%;
+    max-height: 70px;
     background: rgb(29,175,236);
     color: white;
-    text-align: center
+    text-align: center;
+}
+
+.work__header--first {
+    top: 125px;
+}
+
+@media (min-width: 768px) {
+    .work__header--first {
+        top: 69px;
+    }
 }
 
 .work__header h1 {
@@ -364,9 +383,10 @@ hr {
 .work__item {
     display: block;
     position: relative;
-    height: 100%;
+    height: 100%; 
     max-height: 1280px;
     width: 100%;
+    line-height: 0;
 }
 
 .work__item--title {
@@ -732,12 +752,11 @@ hr {
         text-align: center;
     }
 }
-
 #sidenav {
     display: block;
     position: fixed;
     width: 200px;
-    top: 50%;
+    top: 80%;
     right: -150px;
     background: rgb(29,175,236);
     -ms-transform: translateX(-50%) translateY(-20%);
@@ -748,6 +767,12 @@ hr {
     padding: 16px;
     transition: right 1s ease;
     list-style-type: none;
+}
+
+@media (min-width: 768px) {
+    #sidenav {
+        top: 50%;
+    }
 }
 
 #sidenav li {
