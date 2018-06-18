@@ -21,23 +21,6 @@ permalink: /work/
             </video>
         </div>
     {% endfor %}
-
-    <div class="work__header" id='work'>
-        <h1>MUSIC</h1>
-    </div>
-    {% for musicvideo in site.musicvideos %}
-        <div class="work__item">
-            <a href="{{musicvideo.link | prepend: site.baseurl }}">
-                <div class="work__item--title">
-                    <h1>{{ musicvideo.title }}</h1>
-                    <h2>{{ musicvideo.subtitle }}</h2>
-                </div>
-            </a>
-            <video playsinline autoplay muted loop preload poster='{{musicvideo.img1}}'>
-                <source src="{{musicvideo.video}}" type="video/mp4">
-            </video>
-        </div>
-    {% endfor %}
     
     <div class="work__header" id='commercial'>
         <h1>COMMERCIAL</h1>
@@ -52,6 +35,23 @@ permalink: /work/
             </a>
             <video playsinline autoplay muted loop preload poster='{{commercial.img1}}'>
                 <source src="{{commercial.video}}" type="video/mp4">
+            </video>
+        </div>
+    {% endfor %}
+
+    <div class="work__header" id='work'>
+        <h1>MUSIC</h1>
+    </div>
+    {% for musicvideo in site.musicvideos %}
+        <div class="work__item">
+            <a href="{{musicvideo.link | prepend: site.baseurl }}">
+                <div class="work__item--title">
+                    <h1>{{ musicvideo.title }}</h1>
+                    <h2>{{ musicvideo.subtitle }}</h2>
+                </div>
+            </a>
+            <video playsinline autoplay muted loop preload poster='{{musicvideo.img1}}'>
+                <source src="{{musicvideo.video}}" type="video/mp4">
             </video>
         </div>
     {% endfor %}
