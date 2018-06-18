@@ -510,11 +510,13 @@ hr {
     font-size: 3rem;
     color: white;
     transition: color .25s ease;
+    text-decoration: none;
 }
 
 .contact__item a {
     color: white;
     transition: color .25s ease;
+    text-decoration: none;
 }
 
 .contact__item:hover h1 {
