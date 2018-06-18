@@ -169,6 +169,14 @@ hr {
     transition: color 300ms ease;
 }
 
+.coming__soon {
+    position: absolute;
+    color: white;
+    font-size: 3em;
+    margin-bottom: 0;
+    margin-top: -40px;
+}
+
 .project__video i:hover {
     color: rgb(29,175,236);
 }
