@@ -167,6 +167,12 @@ hr {
 .project__video i {
     color: white;
     margin-top: -150px;
+    cursor: pointer;
+    transition: color 300ms ease;
+}
+
+.project__video i:hover {
+    color: rgb(29,175,236);
 }
 
 #playBtn {
