@@ -54,6 +54,9 @@ fields:
   label: img4
 - type: text
 pages:
+- _musicvideos/tafari-toTheEnd.md
+- _musicvideos/midnightvesta-sweden.md
+- _musicvideos/peacefulGhosts.md
 - _musicvideos/trash-noraebang.md
 - _musicvideos/oseko-myway.md
 - _musicvideos/snoopy.md
