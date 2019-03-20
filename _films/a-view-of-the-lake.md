@@ -1,5 +1,5 @@
 ---
-layout: ''
+layout: project
 title: A VIEW OF THE LAKE
 subtitle: ''
 details: ''
@@ -16,6 +16,5 @@ img2: ''
 img3: ''
 img4: ''
 date: 2019-03-20 17:27:09 +0000
-published: false
 
 ---
