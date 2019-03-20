@@ -57,5 +57,3 @@ fields:
 - type: text
   name: img4
   label: img4
-pages:
-- _films/a-view-of-the-lake.md
