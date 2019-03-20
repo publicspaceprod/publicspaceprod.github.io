@@ -57,3 +57,7 @@ fields:
 - type: text
   name: img4
   label: img4
+pages:
+- _films/willing-to-lie.md
+- _films/praise-alone-man.md
+- _films/view-from-the-lake.md

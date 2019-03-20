@@ -53,3 +53,5 @@ fields:
   name: img4
   label: img4
 - type: text
+pages:
+- _musicvideos/oseko-coast.md
