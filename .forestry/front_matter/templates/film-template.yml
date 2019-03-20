@@ -1,4 +1,59 @@
 ---
 label: Film template
 hide_body: true
-fields: []
+fields:
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+  config:
+    required: true
+- type: text
+  label: title
+  name: title
+  config:
+    required: true
+- type: text
+  label: subtitle
+  name: subtitle
+- type: text
+  name: details
+  label: details
+- type: text
+  name: ''
+- type: textarea
+  name: desc
+  label: desc
+- type: text
+  name: embed
+  label: embed
+- type: text
+  name: facebook
+  label: facebook
+- type: text
+  name: video
+  label: video
+- type: text
+  name: clip2
+  label: clip2
+- type: text
+  name: clip3
+  label: clip3
+- type: text
+  name: link
+  label: link
+- type: text
+  name: img1
+  label: img1
+- type: text
+  name: img1
+  label: img1
+- type: text
+  name: img2
+  label: img2
+- type: text
+  name: img3
+  label: img3
+- type: text
+  name: img4
+  label: img4
