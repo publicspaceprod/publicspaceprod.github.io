@@ -1,0 +1,44 @@
+---
+label: Commercial Template
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+  default: project
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: textarea
+  name: desc
+  label: desc
+- type: text
+  name: embed
+  label: embed
+- type: text
+  name: video
+  label: video
+- type: text
+  name: clip2
+  label: clip2
+- type: text
+  name: clip3
+  label: clip3
+- type: text
+  name: link
+  label: link
+- type: file
+  name: img1
+  label: img1
+- type: file
+  name: img2
+  label: img2
+- type: file
+  name: img3
+  label: img3
+- type: file
+  name: img4
+  label: img4
