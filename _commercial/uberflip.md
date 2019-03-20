@@ -1,6 +1,7 @@
 ---
 
 layout: project
+order: 1
 title:  "RETHINK YOUR CONTENT EXPERIENCE"
 subtitle: "Uberflip"
 details: Informational Series
@@ -9,7 +10,7 @@ embed: https://player.vimeo.com/video/273440258
 video: /assets/videos/uberflip/VIDEO/Clip_1.mp4
 clip2: /assets/videos/uberflip/VIDEO/Clip_2.mp4
 clip3: /assets/videos/uberflip/VIDEO/Clip_3.mp4
-link: /commercial/1.uberflip/
+link: /commercial/uberflip/
 img1: /assets/videos/uberflip/STILLS/1.png
 img2: /assets/videos/uberflip/STILLS/2.png
 img3: /assets/videos/uberflip/STILLS/3.png

@@ -8,7 +8,8 @@ permalink: /work/
     <div class="work__header work__header--first" id='film'>
         <h1>FILM</h1>
     </div>
-    {% for film in site.films %}
+    {% assign films = site.films | sort: "order" %}
+    {% for film in films %}
         <div class="work__item">
             <a href="{{film.link | prepend: site.baseurl }}">
                 <div class="work__item--title">
@@ -25,7 +26,8 @@ permalink: /work/
     <div class="work__header" id='commercial'>
         <h1>COMMERCIAL</h1>
     </div>
-    {% for commercial in site.commercial %}
+    {% assign commercials = site.commercial | sort: "order" %}
+    {% for commercial in commercials %}
         <div class="work__item">
             <a href="{{commercial.link | prepend: site.baseurl }}">
                 <div class="work__item--title">
@@ -42,7 +44,8 @@ permalink: /work/
     <div class="work__header" id='work'>
         <h1>MUSIC</h1>
     </div>
-    {% for musicvideo in site.musicvideos %}
+    {% assign musicvideos = site.musicvideos | sort: "order" %}
+    {% for musicvideo in musicvideos %}
         <div class="work__item">
             <a href="{{musicvideo.link | prepend: site.baseurl }}">
                 <div class="work__item--title">

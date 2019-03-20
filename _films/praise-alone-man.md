@@ -1,6 +1,7 @@
 ---
 
 layout: project
+order: 1
 title:  "PRAISE | A LONE MAN"
 subtitle: "Short Film"
 details: "Dir. Kyle Marchen - 2018 <br> Genre: Experimental Drama"
@@ -10,7 +11,7 @@ facebook: https://www.facebook.com/praisealm/
 video: /assets/videos/praise-aloneman/VIDEO/CLIP_2.mp4
 clip2: /assets/videos/praise-aloneman/video/CLIP_3.mp4
 clip3: /assets/videos/praise-aloneman/VIDEO/CLIP_1.mp4
-link: /films/1.praise-alone-man/
+link: /films/praise-alone-man/
 img1: /assets/videos/praise-aloneman/STILLS/1.png
 img2: /assets/videos/praise-aloneman/STILLS/2.png
 img3: /assets/videos/praise-aloneman/STILLS/3.png

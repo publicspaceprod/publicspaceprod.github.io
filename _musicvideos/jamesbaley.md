@@ -1,6 +1,7 @@
 ---
 
 layout: project
+order: 7
 title:  "IM JAMES BALEY"
 subtitle: "Live Sessions"
 details: Dir. Van Wickiam
@@ -9,7 +10,7 @@ embed: https://player.vimeo.com/video/273396911
 video: /assets/videos/jamesbaley/video/Clip_1.mp4
 clip2: /assets/videos/jamesbaley/video/Clip_2.mp4
 clip3: /assets/videos/jamesbaley/video/Clip_3.mp4
-link: ../musicvideos/7.jamesbaley/
+link: ../musicvideos/jamesbaley/
 img1: /assets/videos/jamesbaley/stills/1.png
 img2: /assets/videos/jamesbaley/stills/2.png
 img3: /assets/videos/jamesbaley/stills/3.png

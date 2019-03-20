@@ -1,6 +1,7 @@
 ---
 
 layout: project
+order: 6
 title:  "Noraebang"
 subtitle: "Justin Trash"
 details: Dir. Kyle Marchen
@@ -10,7 +11,7 @@ press: https://noisey.vice.com/en_us/article/mba3z3/justin-trash-gets-comfortabl
 video: /assets/videos/trash-noraebang/video/CLIP_1.mp4
 clip2: /assets/videos/trash-noraebang/video/CLIP_2.mp4
 clip3: /assets/videos/trash-noraebang/video/CLIP_3.mp4
-link: ../musicvideos/6.trash-noraebang/
+link: ../musicvideos/trash-noraebang/
 img1: /assets/videos/trash-noraebang/STILLS/1.png
 img2: /assets/videos/trash-noraebang/STILLS/2.png
 img3: /assets/videos/trash-noraebang/STILLS/3.png

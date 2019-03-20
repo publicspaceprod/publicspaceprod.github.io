@@ -1,6 +1,7 @@
 ---
 
 layout: project
+order: 9
 title:  "Peaceful Ghosts"
 subtitle: "Epoch Tapes"
 details: Dir. Kyle Marchen
@@ -9,7 +10,7 @@ embed: https://player.vimeo.com/video/273397589
 video: /assets/videos/peacefulGhosts/video/CLIP_1.mp4
 clip2: /assets/videos/peacefulGhosts/video/CLIP_2.mp4
 clip3: /assets/videos/peacefulGhosts/video/CLIP_3.mp4
-link: ../musicvideos/9.peacefulGhosts/
+link: ../musicvideos/peacefulGhosts/
 img1: /assets/videos/peacefulGhosts/STILLS/1.png
 img2: /assets/videos/peacefulGhosts/STILLS/2.png
 img3: /assets/videos/peacefulGhosts/STILLS/3.png

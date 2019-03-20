@@ -1,6 +1,7 @@
 ---
 
 layout: project
+order: 3
 title:  "To The End"
 subtitle: "Tafari Anthony"
 details: "Dir. Kyle Marchen"
@@ -10,7 +11,7 @@ embed: https://player.vimeo.com/video/272705762
 video: /assets/videos/tafari-toTheEnd/video/CLIP_2.mp4
 clip2: /assets/videos/tafari-toTheEnd/video/CLIP_1.mp4
 clip3: /assets/videos/tafari-toTheEnd/video/CLIP_3.mp4
-link: ../musicvideos/3.tafari-toTheEnd/
+link: ../musicvideos/tafari-toTheEnd/
 display: /assets/videos/tafari-toTheEnd/stills/display.png
 img1: /assets/videos/tafari-toTheEnd/stills/1.png
 img2: /assets/videos/tafari-toTheEnd/stills/2.png

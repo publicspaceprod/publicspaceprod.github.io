@@ -1,6 +1,7 @@
 ---
 
 layout: project
+order: 2
 title:  "MY WAY"
 subtitle: "Oseko"
 details: Dir. Kyle Marchen
@@ -10,7 +11,7 @@ press: http://www.liveinlimbo.com/2018/03/23/world-premiere/video-premiere-my-wa
 video: /assets/videos/oseko-myway/video/oseko-myway.mp4
 clip2: /assets/videos/oseko-myway/video/CLIP_4.mp4 
 clip3: /assets/videos/oseko-myway/video/CLIP_2.mp4
-link: ../musicvideos/2.oseko-myway/
+link: ../musicvideos/oseko-myway/
 img1: /assets/videos/oseko-myway/STILLS/1.png
 img2: /assets/videos/oseko-myway/STILLS/2.png
 img3: /assets/videos/oseko-myway/STILLS/3.png

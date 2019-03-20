@@ -1,6 +1,7 @@
 ---
 
 layout: project
+order: 3
 title:  "WILLING TO LIE"
 subtitle: "Short Film"
 details: "Dir. Ted Jefferies - 2018 <br> Genre: Comedy"
@@ -11,7 +12,7 @@ indiegogo: https://www.indiegogo.com/projects/willing-to-lie#/
 video: /assets/videos/willing-to-lie/VIDEO/Clip_1.mp4
 clip2: /assets/videos/willing-to-lie/VIDEO/Clip_2.mp4
 clip3: /assets/videos/willing-to-lie/VIDEO/Clip_3.mp4
-link: /films/3.willing-to-lie/
+link: /films/willing-to-lie/
 img1: /assets/videos/willing-to-lie/STILLS/1.png
 img2: /assets/videos/willing-to-lie/STILLS/2.png
 img3: /assets/videos/willing-to-lie/STILLS/3.png

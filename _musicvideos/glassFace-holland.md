@@ -1,6 +1,7 @@
 ---
 
 layout: project
+order: 1
 title: "Holland" 
 subtitle: "Glass Face"
 details: Dir. Kyle Marchen
@@ -9,7 +10,7 @@ embed: https://player.vimeo.com/video/169365890
 video: /assets/videos/glassFace-holland/video/glassFace-holland.mp4
 clip2: /assets/videos/glassFace-holland/video/CLIP_2.mp4
 clip3: /assets/videos/glassFace-holland/video/CLIP_3.mp4
-link: ../musicvideos/1.glassFace-holland/
+link: ../musicvideos/glassFace-holland/
 img1: /assets/videos/glassFace-holland/stills/1.png
 img2: /assets/videos/glassFace-holland/stills/2.png
 img3: /assets/videos/glassFace-holland/stills/3.png
