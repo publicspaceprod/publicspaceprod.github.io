@@ -54,4 +54,9 @@ fields:
   label: img4
 - type: text
 pages:
+- _musicvideos/trash-noraebang.md
+- _musicvideos/oseko-myway.md
+- _musicvideos/snoopy.md
+- _musicvideos/jamesbaley.md
+- _musicvideos/glassFace-holland.md
 - _musicvideos/oseko-coast.md
