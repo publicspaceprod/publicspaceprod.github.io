@@ -42,3 +42,6 @@ fields:
 - type: file
   name: img4
   label: img4
+pages:
+- _commercial/espn.md
+- _commercial/orca.md
