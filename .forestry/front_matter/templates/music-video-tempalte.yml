@@ -1,5 +1,5 @@
 ---
-label: Music Video tempalte
+label: Music Video Template
 hide_body: true
 fields:
 - type: text
@@ -7,6 +7,12 @@ fields:
   label: layout
   default: project
   hidden: true
+- type: number
+  name: order
+  label: order
+  config:
+    min: '1'
+    required: false
 - type: text
   name: title
   label: title
@@ -46,3 +52,4 @@ fields:
 - type: file
   name: img4
   label: img4
+- type: text
